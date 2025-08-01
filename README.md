@@ -1,4 +1,4 @@
-# 📧 Automated Invoice Email Sender
+# 📧 Automated Bulk Invoice Emailer
 
 This Python script automates the task of sending personalized invoice PDFs to multiple recipients via email. It reads data from a `clients.csv` file, fetches corresponding invoice files from an `invoices` folder, and sends them as secure email attachments via Gmail.
 
@@ -47,11 +47,14 @@ Jane,jane@example.com,invoice_jane.pdf
 4. **Run the script** using a Python environment like Replit or your local terminal:
 ```bash
 python main.py
+
 Check the console for a summary, and confirm email delivery in your Gmail “Sent” folder.
 
 ---
 
-🔍 Preview
+## Demo Screenshot
+
+![Bulk Invoice Emailer Screenshot](screenshot.png)
 
 ---
 
