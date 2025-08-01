@@ -70,11 +70,14 @@ This project uses TLS over SMTP for secure transmission.
 ---
 
 🧑‍💻 Built by Eric M.
+
 https://www.upwork.com/freelancers/~012558bab6232e8e65
+
 https://github.com/Ek-Coder-Tech
 
 ---
 
 📄 License
+
 This project is open-source and free to use under the MIT License.
 
