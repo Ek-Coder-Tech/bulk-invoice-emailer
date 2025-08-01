@@ -52,7 +52,7 @@ Check the console for a summary, and confirm email delivery in your Gmail “Sen
 
 ## Demo Screenshot
 
-![Bulk Invoice Emailer Screenshot](screenshot.png)
+![Bulk Invoice Emailer Screenshot](screenshot.PNG)
 
 ---
 
