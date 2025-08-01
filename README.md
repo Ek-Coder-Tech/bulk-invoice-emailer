@@ -45,7 +45,6 @@ Jane,jane@example.com,invoice_jane.pdf
 3. **Put all invoice files** in the `/invoices` folder.
 
 4. **Run the script** using a Python environment like Replit or your local terminal:
-```bash 
 python main.py
 Check the console for a summary, and confirm email delivery in your Gmail “Sent” folder.
 
