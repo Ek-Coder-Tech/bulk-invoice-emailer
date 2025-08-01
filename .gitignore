@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Secret config files
+.env
+
+# IDE/editor config folders
+.vscode/
+.idea/
