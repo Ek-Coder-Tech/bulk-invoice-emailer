@@ -54,7 +54,6 @@ project-folder/
 
 4. **Run the script**:
 
-    ```bash
     python main.py
     ```
 
