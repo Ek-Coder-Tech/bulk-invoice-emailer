@@ -34,18 +34,15 @@ project-folder/
 
 1. **Prepare your `.env` file** with your Gmail credentials:
 
-EMAIL_ADDRESS=your-email@gmail.coM
+EMAIL_ADDRESS=your-email@gmail.com
 EMAIL_PASSWORD=your-app-password
-
 
 2. **Add your `clients.csv`** in the following format:
 
 name,email,file
-
 John,john@example.com,invoice_john.pdf
 Mary,mary@example.com,invoice_mary.pdf
 Jane,jane@example.com,invoice_jane.pdf
-
 
 3. **Put all invoice files** in the `/invoices` folder.
 
