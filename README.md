@@ -28,41 +28,51 @@ project-folder/
 │ └── email-invoice-sender-console.png
 └── README.md
 
+
+
 ---
 
 ## 🛠️ How to Use
 
 1. **Prepare your `.env` file** with your Gmail credentials:
 
-EMAIL_ADDRESS=your-email@gmail.com
-EMAIL_PASSWORD=your-app-password
+    ```
+    EMAIL_ADDRESS=your-email@gmail.com  
+    EMAIL_PASSWORD=your-app-password
+    ```
 
-2. **Add your `clients.csv`** in the following format:
+2. **Create a `clients.csv` file** with the following format:
 
-name,email,file
-John,john@example.com,invoice_john.pdf
-Mary,mary@example.com,invoice_mary.pdf
-Jane,jane@example.com,invoice_jane.pdf
+    ```
+    name,email,file
+    John,john@example.com,invoice_john.pdf
+    Mary,mary@example.com,invoice_mary.pdf
+    Jane,jane@example.com,invoice_jane.pdf
+    ```
 
-3. **Put all invoice files** in the `/invoices` folder.
+3. **Put all invoice PDF files** into the `invoices/` folder.
 
-4. **Run the script** using a Python environment like Replit or your local terminal:
-python main.py
-Check the console for a summary, and confirm email delivery in your Gmail “Sent” folder.
+4. **Run the script**:
+
+    ```bash
+    python main.py
+    ```
+
+    Check the console for a delivery report and verify emails in your Gmail “Sent” folder.
 
 ---
 
-## Demo Screenshot
+## 🖼️ Demo Screenshot
 
 ![Bulk Invoice Emailer Screenshot](screenshot.PNG)
 
 ---
 
-📌 Notes
+## 📌 Notes
 
-Make sure you enable 2-Step Verification in Gmail and use an App Password.
-
-This project uses TLS over SMTP for secure transmission.
+- Make sure you enable **2-Step Verification** in Gmail and generate an **App Password**.
+- The script uses **TLS over SMTP** for secure email transmission.
+- Handles missing files and failed emails gracefully without halting execution.
 
 ---
 
@@ -70,17 +80,17 @@ This project uses TLS over SMTP for secure transmission.
 
 **Eric Mutisya**  
 Python Developer & Web Automation Freelancer  
-[View My GitHub Projects](https://github.com/Ek-Coder-Tech)
+[🔗 View My GitHub Projects](https://github.com/Ek-Coder-Tech)
 
 ---
 
-📄 License
+## 📄 License
 
-This project is open-source and free to use under the MIT License.
+This project is open-source and available under the **MIT License**.
 
 ---
 
 ## 📬 Contact
 
-For freelance inquiries, please reach out via [Upwork Profile](https://www.upwork.com/freelancers/~012558bab6232e8e65)
-
+For freelance inquiries or collaborations:  
+📎 [View My Upwork Profile](https://www.upwork.com/freelancers/~012558bab6232e8e65)
