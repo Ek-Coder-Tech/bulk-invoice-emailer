@@ -69,15 +69,21 @@ This project uses TLS over SMTP for secure transmission.
 
 ---
 
-🧑‍💻 Built by Eric M.
+## 👤 Author
 
-https://www.upwork.com/freelancers/~012558bab6232e8e65
-
-https://github.com/Ek-Coder-Tech
+**Eric Mutisya**  
+Python Developer & Web Automation Freelancer  
+[View My GitHub Projects](https://github.com/Ek-Coder-Tech)
 
 ---
 
 📄 License
 
 This project is open-source and free to use under the MIT License.
+
+---
+
+## 📬 Contact
+
+For freelance inquiries, please reach out via [Upwork Profile](https://www.upwork.com/freelancers/~012558bab6232e8e65)
 
