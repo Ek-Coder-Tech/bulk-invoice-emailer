@@ -28,40 +28,28 @@ project-folder/
 │ └── email-invoice-sender-console.png
 └── README.md
 
-
-
 ---
 
 ## 🛠️ How to Use
 
 1. **Prepare your `.env` file** with your Gmail credentials:
-
-    ```
     EMAIL_ADDRESS=your-email@gmail.com  
     EMAIL_PASSWORD=your-app-password
-    ```
-
 2. **Create a `clients.csv` file** with the following format:
-
-    ```
     name,email,file
     John,john@example.com,invoice_john.pdf
     Mary,mary@example.com,invoice_mary.pdf
     Jane,jane@example.com,invoice_jane.pdf
-    ```
-
 3. **Put all invoice PDF files** into the `invoices/` folder.
-
 4. **Run the script**:
-
     python main.py
-    ```
-
     Check the console for a delivery report and verify emails in your Gmail “Sent” folder.
 
 ---
 
-## 🖼️ Demo Screenshot
+## 🖼️ Screenshot
+
+Bulk Invoice Emailer Screenshot
 
 ![Bulk Invoice Emailer Screenshot](screenshot.PNG)
 
